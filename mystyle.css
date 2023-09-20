@@ -1006,8 +1006,8 @@
     .pro-text {
       margin-top: 6rem;
     }
-    .aboutn {
-      margin-top: -10rem;
+    .about {
+      margin-top: 10rem;
     }
   }
   
@@ -1015,10 +1015,11 @@
     #profile {
       height: 100vh;
       margin: 0;
+      
     }
     .aboutn .section-container {
       flex-wrap: wrap;
-      margin-top: 15rem;
+      margin-top: -1rem;
     }
     .aboutn .section-container {
       flex-direction: column;
