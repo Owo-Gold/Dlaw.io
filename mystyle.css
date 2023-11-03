@@ -278,8 +278,13 @@
   /* my about*/
   #about{
     position: relative;
+   
+  }
+  .section-pic-container{
     display: flex;
-    width: 100%;
+    height: 400px;
+     width: 400px;
+    margin: auto 0 ;
   }
   #about h1{
    display: block;
@@ -298,7 +303,8 @@
   flex-direction: column;
 }
 
-.about-containers,l .about-details-container{
+.about-containers,
+ .about-details-container{
   display: flex;
 }
 
@@ -323,12 +329,6 @@
   gap: 4rem;
   height: 80%;
   width: 100%;
-}
-
-.section-pic-container{
-  height: 400px;
-  width: 400px;
- 
 }
 
 .text-container{
@@ -1017,13 +1017,8 @@
       height: 80vh;
     }
    
-    .section-container{
-      display: block;
-    }
-    section, 
-    .section-container {
-      height: fit-content;
-    }
+   
+   
     section {  
       margin: 0 5%;
       margin-bottom: 0rem;
@@ -1048,7 +1043,6 @@
     #profile {
       height: 100vh;
       margin: 0;
-      
     }
 
     .details-container{
@@ -1064,21 +1058,16 @@
     }
     .about .section-container {
       flex-wrap: wrap;
-    }
-    .about .section-containers {
-      flex-direction: column;
-      align-items: flex-start;
+      margin: 2rem;
     }
     
     .about-containers, .details-container{
       flex-wrap: wrap;
     }
-    .about-details-container{
-      display: grid;
-    }
+    
     .section-pic-container,
     .about-details-container{
-      width: 100%;
+      
       display: grid;
     }
     section {
@@ -1088,6 +1077,15 @@
       width: auto;
       height: 46vw;
       justify-content: center;
+      
+    }
+
+    .section-pic-container {
+      width: 50%;
+      height: 46vw;
+      justify-content: center;
+      margin-bottom: 33rem;
+      margin-left: 3rem;
     }
     .pro-text {
       margin-top: 14rem;
