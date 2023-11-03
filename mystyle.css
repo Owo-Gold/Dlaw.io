@@ -279,6 +279,7 @@
   #about{
     position: relative;
     display: flex;
+    width: 100%;
   }
   #about h1{
    display: block;
@@ -321,6 +322,7 @@
 .section-container{
   gap: 4rem;
   height: 80%;
+  width: 100%;
 }
 
 .section-pic-container{
@@ -334,30 +336,6 @@
   font-size: 1.5rem;
 }
 
-
- 
-  /* new about*/
-  .aboutn {
-    position: relative;
-    margin-top: 2rem;
-  }
-  
-  .section-container {
-    display: flex;
-  }
-  
-  .aboutn .section-container {
-    gap: 3rem;
-    width: 100%;
-  }
-  
-  .about-picture {
-    display: flex;
-    height: 309px;
-    width: 300px;
-    margin: auto 0;
-  }
-  
   .content {
     padding-top: 0%;
   }
@@ -381,22 +359,7 @@
     line-height: 1.4;
     margin-bottom: 4rem;
   }
-  .head {
-    display: none;
-  }
-  .head h2 {
-    font-size: 60px;
-  }
-  .head h2 span {
-    color: #00abf1;
-  }
-  .head h4 {
-    font-size: 3rem;
-    color: #fff;
-    font-weight: 600;
-    line-height: 1.7;
-    margin: 10px 0 20px;
-  }
+  
   .content h2 span {
     color: #00abf1;
   }
@@ -1054,9 +1017,6 @@
       height: 80vh;
     }
    
-    .about section {
-     
-    }
     .section-container{
       display: block;
     }
@@ -1090,24 +1050,27 @@
       margin: 0;
       
     }
+
+    .details-container{
+      padding: 1.5rem;
+      flex: 2;
+      border-radius: 2rem;
+      text-align: center;
+      border: .1rem solid #00abf1;
+    }
+   
     .about-details-container{
       margin-top: 2rem;
     }
-    .about .section-containers {
+    .about .section-container {
       flex-wrap: wrap;
-      margin-top: -1rem;
     }
     .about .section-containers {
       flex-direction: column;
       align-items: flex-start;
     }
-    .head {
-      display: block;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .about-containers{
+    
+    .about-containers, .details-container{
       flex-wrap: wrap;
     }
     .about-details-container{
@@ -1118,22 +1081,6 @@
       width: 100%;
       display: grid;
     }
-
-    .head h4 {
-    font-size: 2.5rem;
-    }
-    .aboutn .section-container .content h2,
-    .aboutn .section-container .content h4 {
-      display: none;
-    }
-  
-    .aboutn .section-container .about-picture {
-      order: 1;
-    }
-    .aboutn .section-container .content {
-      order: 2;
-    }
-  
     section {
       height: fit-content;
     }
