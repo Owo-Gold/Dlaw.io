@@ -30,7 +30,6 @@
     height: 96vh;
     padding-top: 4vh;
     min-height: fit-content;
-    margin: -4vh 0%;
   }
   
   @-ms-viewport {
@@ -275,7 +274,68 @@
   .share a:hover::before {
     width: 100%;
   }
-  
+ 
+  /* my about*/
+  #about{
+    position: relative;
+    display: flex;
+  }
+  #about h1{
+   display: block;
+   width: 100%;
+   margin: 0;padding: 0;
+   
+  }
+.about-containers{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,l .about-details-container{
+  display: flex;
+}
+
+.about-pic{
+  border-radius: 2rem;
+}
+
+.details-container{
+  padding: 1.5rem;
+  flex: 2;
+  border-radius: 2rem;
+  text-align: center;
+  border: .1rem solid #00abf1;
+}
+
+.details-container i{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+
+.section-pic-container{
+  height: 400px;
+  width: 400px;
+ 
+}
+
+.text-container{
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+
+ 
   /* new about*/
   .aboutn {
     position: relative;
@@ -293,7 +353,7 @@
   
   .about-picture {
     display: flex;
-    height: 300px;
+    height: 309px;
     width: 300px;
     margin: auto 0;
   }
@@ -978,11 +1038,13 @@
   
   @media screen and (max-width: 1400px) {
     #profile {
-      height: 80vh;
+      height: 83vh;
+      margin-bottom: 6rem;
      
     }
-    .aboutn {
+    .about-containers {
       flex-wrap: wrap;
+      
     }
   }
   
@@ -993,12 +1055,16 @@
     }
    
     .about section {
-      flex-wrap: wrap;
-      margin-bottom: 2rem;
+     
     }
-  
-    section {
+    .section-container{
+      display: block;
+    }
+    section, 
+    .section-container {
       height: fit-content;
+    }
+    section {  
       margin: 0 5%;
       margin-bottom: 0rem;
     }
@@ -1013,6 +1079,9 @@
     .about {
       margin-top: 10rem;
     }
+    .about-containers{
+      margin-top: 0;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -1021,11 +1090,14 @@
       margin: 0;
       
     }
-    .aboutn .section-container {
+    .about-details-container{
+      margin-top: 2rem;
+    }
+    .about .section-containers {
       flex-wrap: wrap;
       margin-top: -1rem;
     }
-    .aboutn .section-container {
+    .about .section-containers {
       flex-direction: column;
       align-items: flex-start;
     }
@@ -1034,6 +1106,17 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+    }
+    .about-containers{
+      flex-wrap: wrap;
+    }
+    .about-details-container{
+      display: grid;
+    }
+    .section-pic-container,
+    .about-details-container{
+      width: 100%;
+      display: grid;
     }
 
     .head h4 {
