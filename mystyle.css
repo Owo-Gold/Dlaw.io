@@ -1126,18 +1126,16 @@ form textarea {
 
   .scontainer {
     width: 550px;
-    height: 350px;
+    height: 450px;
     padding: 75px 10px;
     margin-left: 0px;
+    margin-bottom: 0;
   }
 
   .services {
     margin-bottom: 0;
   }
 
-  .project {
-    margin-top: 10rem;
-  }
   .main-text h2 {
     margin-bottom: 4rem;
   }
