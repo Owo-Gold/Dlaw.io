@@ -1053,6 +1053,9 @@ form textarea {
     text-align: center;
     border: 0.1rem solid #00abf1;
   }
+  .b1 {
+    margin-bottom: 2rem;
+  }
 
   .about-details-container {
     margin-top: 2rem;
@@ -1080,7 +1083,17 @@ form textarea {
     justify-content: center;
     margin-bottom: 8rem;
   }
+  .section-pic-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
+  .about-containers {
+    display: block;
+    width: 80%;
+    margin-top: -18rem;
+  }
   .pro-text {
     margin-top: 14rem;
   }
