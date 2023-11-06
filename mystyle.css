@@ -1062,7 +1062,6 @@ form textarea {
   }
   .about .section-container {
     flex-wrap: wrap;
-    margin: 2rem;
   }
 
   .about-containers,
@@ -1084,7 +1083,7 @@ form textarea {
     margin-bottom: 8rem;
   }
   .section-pic-container img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     display: block;
   }
@@ -1145,6 +1144,11 @@ form textarea {
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
+  }
+  .project-content .row {
+    max-width: 90%;
+    margin-bottom: 2rem;
+    margin-left: -2rem;
   }
 
   .share {
