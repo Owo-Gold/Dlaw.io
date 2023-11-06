@@ -1126,34 +1126,41 @@ form textarea {
 
   .scontainer {
     width: 550px;
-    height: 550px;
+    height: 350px;
     padding: 75px 10px;
     margin-left: 0px;
   }
+
   .services {
     margin-bottom: 0;
   }
+
+  .project {
+    margin-top: 10rem;
+  }
+  .main-text h2 {
+    margin-bottom: 4rem;
+  }
+  .project-content .row {
+    max-width: 90%;
+    margin-bottom: 1rem;
+    margin-left: -2rem;
+  }
+
   .radial-bar .text {
     position: absolute;
     align-items: center;
     width: 100%;
     left: 90%;
-    bottom: -50%;
-    transform: translate(-50%, -50%);
+    bottom: -30%;
     font-size: 14px;
     font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
-  }
-  .project-content .row {
-    max-width: 90%;
-    margin-bottom: 2rem;
-    margin-left: -2rem;
   }
 
   .share {
     display: none;
   }
+
   .end {
     width: 100%;
   }
