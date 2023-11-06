@@ -1084,7 +1084,7 @@ form textarea {
     margin-bottom: 8rem;
   }
   .section-pic-container img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
   }
@@ -1106,6 +1106,7 @@ form textarea {
   .about .content p {
     text-align: justify;
     width: fit-content;
+    max-width: 80%;
   }
   .top {
     display: none;
